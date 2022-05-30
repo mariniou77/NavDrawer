@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Insert.InsertSport">
+
+    <EditText
+        android:id="@+id/sportid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="Κωδικος Αθλήματος"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/sportkind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Eίδος Αθλήματος"
+        app:layout_constraintStart_toStartOf="@+id/sportname"
+        app:layout_constraintTop_toBottomOf="@+id/sportname" />
+
+    <EditText
+        android:id="@+id/sportgender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Φύλλο"
+        app:layout_constraintStart_toStartOf="@+id/sportkind"
+        app:layout_constraintTop_toBottomOf="@+id/sportkind" />
+
+    <EditText
+        android:id="@+id/sportname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Όνομα Αθλήματος"
+        app:layout_constraintStart_toStartOf="@+id/sportid"
+        app:layout_constraintTop_toBottomOf="@+id/sportid" />
+
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:constraint_referenced_ids="sportname,sportid" />
+
+    <Button
+        android:id="@+id/submitsport"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="Submit"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sportgender" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

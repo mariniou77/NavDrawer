@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">NavDrawer</string>
+    <string name="insert_athlete">INSERT ATHLETE</string>
+
+    <string-array name="queries_array">
+        <item>Sport Table</item>
+        <item>Athlete Table</item>
+        <item>Team Table</item>
+        <item>Greek Athletes</item>
+        <item>Teams after 2000</item>
+        <item>Male Sports</item>
+        <item>Matches In Greece</item>
+        <item>Matches In London</item>
+        <item>Basket Matches</item>
+    </string-array>
+
+    <string-array name="queries_desc">
+        <item>1.Εμφάνισε όλα τα αθλήματα</item>
+        <item>2.Εμφάνισε όλους τους αθλητές</item>
+        <item>3.Εμφάνισε όλες τις ομάδες</item>
+        <item>4.Εμφάνισε όλους τους έλληνες αθλητές</item>
+        <item>5.Εμφάνισε όλες τις ομάδες που ιδρύθηκαν μετά το 2000</item>
+        <item>6.Εμφάνισε όλα τα ανδρικά αθλήματα</item>
+        <item>7.Εμφάνισε όλους τους αγώνες στην Ελλάδα</item>
+        <item>8.Εμφάνισε όλους τους αγώνες στο λονδίνο</item>
+        <item>9.Εμφάνισε όλους τουσ αγώνες μπάσκετ</item>
+    </string-array>
+</resources>

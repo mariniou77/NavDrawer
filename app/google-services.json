@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "920472192206",
+    "project_id": "matches-e1aa9",
+    "storage_bucket": "matches-e1aa9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:920472192206:android:0bcedae71ebeb38d173c9f",
+        "android_client_info": {
+          "package_name": "com.example.navdrawer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "920472192206-jo9bug1s5n6u5dnehd7ae9okes9o3ej8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBljdKzCHZu_6rumUHG7NbIJlImhQWHxCI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "920472192206-jo9bug1s5n6u5dnehd7ae9okes9o3ej8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

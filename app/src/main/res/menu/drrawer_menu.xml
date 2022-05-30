@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/insert"
+        android:title="Insert"
+        android:icon="@mipmap/baseline_add_to_queue_white_24dp"/>
+    <item android:id="@+id/update"
+        android:title="Update"
+        android:icon="@mipmap/baseline_edit_white_24dp"/>
+    <item android:id="@+id/delete"
+        android:title="Delete"
+        android:icon="@mipmap/baseline_remove_from_queue_white_24dp"/>
+    <item android:id="@+id/queries"
+        android:title="Queries"
+        android:icon="@mipmap/baseline_play_arrow_white_24dp"/>
+    <item android:id="@+id/firebase"
+        android:title="Firebase"
+        android:icon="@mipmap/outline_local_fire_department_white_24dp"/>
+
+
+</menu>
